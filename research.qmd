@@ -1,5 +1,5 @@
 ---
-title: false
+title: "Research"
 pagetitle: "Research | Jong Rock Jeong"
 description: "Working papers, projects, publications, and open-source data and models by Jong Rock Jeong."
 ---

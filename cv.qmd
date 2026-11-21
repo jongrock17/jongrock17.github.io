@@ -1,5 +1,5 @@
 ---
-title: false
+title: "Curriculum Vitae"
 pagetitle: "Curriculum Vitae | Jong Rock Jeong"
 description: "Curriculum vitae of Jong Rock Jeong, M.A. student in Political Science and International Relations at Korea University."
 resources:

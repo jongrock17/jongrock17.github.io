@@ -1,5 +1,5 @@
 ---
-title: false
+title: "About"
 pagetitle: "Jong Rock Jeong | Political Science"
 description: "Jong Rock Jeong — political economy, historical institutions, state capacity, and political methodology."
 ---

@@ -44,3 +44,9 @@ https://jongrock17.github.io
 **주의:** 첨부된 CV PDF를 원본 그대로 넣었습니다. CV 내부에 예전 Political Analysis 투고 상태가 표시되어 있으므로, 박사 지원서에 링크를 넣기 전에 최신 CV로 교체하는 것을 권합니다. 사이트의 논문 목록에는 현재 심사 상태를 주장하지 않았습니다.
 
 홈페이지 공개는 무료입니다. 개인 도메인(.com 등)을 연결하려면 별도 도메인 구입이 필요합니다.
+
+
+## 배포 오류 복구 (2026-11-21 수정)
+이 ZIP은 Quarto `title: false` 오류를 수정했습니다. 4개의 `.qmd` 파일 모두 제목 문자열을 사용하고, 실제 화면에서는 `custom.scss`가 자동 생성된 제목 블록을 감춰 디자인을 유지합니다.
+
+GitHub 저장소에서 `Add file` → `Upload files`로 압축을 푼 내부 파일들을 업로드합니다. 기존 파일을 덮어쓰도록 `Commit changes` 합니다. `.github/workflows/publish.yml`가 기존 저장소에 있으면 유지하세요. `Actions` → `Publish website`에서 초록색 체크가 확인되면 https://jongrock17.github.io 로 접속합니다.

@@ -1,5 +1,5 @@
 ---
-title: false
+title: "Contact"
 pagetitle: "Contact | Jong Rock Jeong"
 description: "Contact and scholarly profiles for Jong Rock Jeong."
 ---
