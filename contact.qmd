@@ -1,0 +1,42 @@
+---
+title: false
+pagetitle: "Contact | Jong Rock Jeong"
+description: "Contact and scholarly profiles for Jong Rock Jeong."
+---
+
+::: {.site-shell .interior-shell}
+<div class="eyebrow"><span class="eyebrow-mark"></span> GET IN TOUCH</div>
+
+# Contact<span class="accent-period">.</span> {.interior-title}
+
+<p class="interior-lead">I welcome questions about my research and opportunities to exchange ideas across political economy, historical analysis, and computational social science.</p>
+
+::: {.hairline-section .contact-page-grid}
+::: {.contact-main}
+<div class="section-index">01 <span>/</span> EMAIL</div>
+
+### Let's start a conversation.
+
+For academic inquiries, research-related questions, or possible collaborations, please get in touch.
+
+<a class="contact-email" href="mailto:jongrock17@gmail.com">jongrock17@gmail.com <span aria-hidden="true">↗</span></a>
+:::
+
+::: {.contact-side}
+<div class="section-index">02 <span>/</span> ONLINE</div>
+
+<div class="contact-directory">
+<a href="https://github.com/jongrock17" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+<a href="https://huggingface.co/jongrock17" target="_blank" rel="noopener">Hugging Face <span aria-hidden="true">↗</span></a>
+<a href="research.html">Research papers <span aria-hidden="true">↗</span></a>
+<a href="cv.pdf" target="_blank" rel="noopener">Curriculum Vitae <span aria-hidden="true">↗</span></a>
+</div>
+:::
+:::
+
+::: {.contact-signoff}
+<div class="signoff-mono">JONG ROCK JEONG</div>
+Department of Political Science and International Relations  
+Korea University · Seoul, South Korea
+:::
+:::

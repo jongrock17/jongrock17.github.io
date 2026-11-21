@@ -1,85 +1,116 @@
 ---
-# ===============================
-# RESEARCH PAGE (research.qmd)
-# A short introduction to your research. Edit the lines marked FIXME.
-#
-# ABOUT COMMENTS
-# Comments are notes for you. They never show on your website.
-#   PART 1: the settings, between the two --- lines (where you are now)
-#           A comment starts with #
-#   PART 2: the page text, below the second ---
-#           A comment is wrapped like this: <!-- your comment -->
-# ===============================
-
-# ---- PAGE TITLE ----
-# The big heading at the top of this page. Change it to anything,
-# e.g. "My Research", "What I Study", "Projects".
-# Tip: this doesn't change the menu label. To change that too,
-# edit the "text:" line for this page in _quarto.yml.
-title: "Research"
+title: false
+pagetitle: "Research | Jong Rock Jeong"
+description: "Working papers, projects, publications, and open-source data and models by Jong Rock Jeong."
 ---
 
+::: {.site-shell .interior-shell}
+<div class="eyebrow"><span class="eyebrow-mark"></span> SCHOLARSHIP & PROJECTS</div>
 
-<!-- You are now in PART 2: the page text. Comments look like this one. -->
+# Research<span class="accent-period">.</span> {.interior-title}
 
-<!--
-  YOUR RESEARCH IN A FEW SENTENCES
-  Write for someone outside your field, like a friend or a new lab mate.
-  Answer one or more of these:
-  - What question are you trying to answer?
-  - Why does it matter, and to whom?
-  - How did you get interested in it?
-  Short is better: 1 or 2 paragraphs is plenty.
--->
+<p class="interior-lead">My work spans comparative and historical political economy and political methodology, with particular attention to institutions, state capacity, and the lasting effects of political conflict.</p>
 
-[Write a few sentences about what you study and why it matters to you.]
+::: {.hairline-section}
+<div class="section-index">01 <span>/</span> WORKING PAPERS</div>
 
-[Optional: a second paragraph about how you got here, or where you want to take this work.]
+::: {.research-item}
+<div class="item-index">2026 · HPE / STATE CAPACITY</div>
 
-<!--
-  ADD A PICTURE (optional)
-  A photo from the field, the lab, or a figure from your work.
-  Right now this shows a placeholder image.
+### Exams, Elites, and the Local State: Bureaucratic Incorporation and Territorial Governance in Joseon Korea
 
-  TO USE YOUR OWN:
-  1. On GitHub, open the "images" folder.
-  2. Click "Add file" > "Upload files" and drag in your picture.
-  3. In the line below, change images/placeholder.svg to your
-     file name EXACTLY (e.g. images/field-site.jpg).
+How does a centralized premodern state distribute resources across localities? This project examines whether access to the central civil bureaucracy was associated with where state relief was provided in Joseon Korea, using historical records of events and civil-service examinations.
 
-  WHAT EACH PART DOES:
-  [ ]          the caption shown under the picture (this helps people who use screen readers.)
-  ( )          the picture's file name
-  fig-alt      a description for people using screen readers
-  width        how big it is: try 40%, 60%, 100%
-  fig-align    where it sits: left, center, or right
+<div class="research-meta">Working paper · SSRN preprint</div>
+:::
 
-  DON'T WANT A PICTURE? Delete the line below.
-  More picture options: https://quarto.org/docs/authoring/figures.html
--->
+::: {.research-item}
+<div class="item-index">2026 · POLITICAL LEGACIES / KOREA</div>
 
-![Caption: where or what this is](images/placeholder.svg){fig-alt="Describe the picture here" width="60%" fig-align="center"}
+### A Funeral Without End: The Political Legacy of the May 18 Democratization Movement in South Korea
 
-## Find my work
+Investigates how the 1980 Gwangju Democratization Movement shaped electoral politics over the long term, including political change after democratization and its geographic reach.
 
-<!--
-  Link to the places where your work lives. Delete any you don't use.
-  Don't have these yet? They're free and take a few minutes:
-  - ORCID: a permanent ID that links all your work to you, even if
-    your name changes. Get one: https://orcid.org/register
-  - Google Scholar profile: https://scholar.google.com/citations
-  To make a link: [text people see](https://the-web-address)
--->
+<div class="research-meta">Working paper · Supported by the May 18 Memorial Foundation</div>
+:::
 
-- [ORCID](https://orcid.org/0000-0000-0000-0000) <!-- FIXME -->
-- [Google Scholar](https://scholar.google.com) <!-- FIXME -->
-- [GitHub](https://github.com/YOUR-USERNAME) <!-- FIXME: your code -->
+::: {.research-item}
+<div class="item-index">2026 · POLITICAL METHODOLOGY / NLP</div>
 
-<!--
-  WANT TO ADD MORE LATER?
-  As your work grows, you can add sections like these:
-  ## Projects
-  ## Publications
-  ## Presentations
-  Each one starts with ## and a name.
--->
+### Across Languages and Political Contexts: Transfer Learning for Political Text Classification
+
+Evaluates the transfer of political natural language inference models from English to Korean political text, focusing on cross-lingual transfer, local adaptation, and the challenges of domain-specific measurement.
+
+<div class="research-meta">Working paper · SSRN preprint</div>
+:::
+:::
+
+::: {.hairline-section}
+<div class="section-index">02 <span>/</span> WORK IN PROGRESS</div>
+
+::: {.research-item}
+<div class="item-index">POLITICAL ECONOMY / HISTORICAL MEMORY</div>
+
+### Boycotts and Ballots: Activated Memory, Political Consumerism, and Electoral Accountability under Trade
+
+Studies how historical resistance and collective memory condition consumer behavior and electoral responses during international trade disputes, with a focus on the 2019 Korea–Japan trade conflict.
+
+<div class="research-meta">Work in progress</div>
+:::
+:::
+
+::: {.hairline-section}
+<div class="section-index">03 <span>/</span> PUBLICATION</div>
+
+::: {.research-item}
+<div class="item-index">2025 · EDITED BOOK · IN KOREAN</div>
+
+### We Made Participatory Budgeting: Political Science Beyond the Classroom
+
+Woo Chang Kang, Sumin Kim, and Jong Rock Jeong, editors. *Bunny on the Moon*, 2025. ISBN 9791193671221.
+
+<div class="research-meta">Edited book</div>
+:::
+:::
+
+::: {.hairline-section .open-research}
+<div class="section-index">04 <span>/</span> OPEN RESEARCH</div>
+## Data, software & models {.section-heading}
+
+The following research tools and data are publicly listed in my CV.
+
+::: {.resources-grid}
+::: {.resource-card}
+<div class="resource-type">DATASET</div>
+### [PolNLI-kor ↗](https://huggingface.co/datasets/jongrock17/PolNLI-kor)
+
+Korean adaptation of the PolNLI political natural language inference benchmark.
+:::
+
+::: {.resource-card}
+<div class="resource-type">DATASET</div>
+### [KoPolNLI ↗](https://huggingface.co/datasets/jongrock17/KoPolNLI-pre-v0.9)
+
+Korean political natural language inference dataset developed from original political texts.
+:::
+
+::: {.resource-card}
+<div class="resource-type">MODEL</div>
+### [KoDEBATE ↗](https://huggingface.co/jongrock17/KoDEBATE-pre-v0.9-base)
+
+Korean political NLI classifier adapted from the DEBATE model family.
+:::
+
+::: {.resource-card}
+<div class="resource-type">HISTORICAL DATA</div>
+### [Joseon Silok Events ↗](https://github.com/jongrock17/joseon-silok-pe-event-data)
+
+Geocoded event data from the Annals of the Joseon Dynasty.
+:::
+:::
+:::
+
+::: {.research-endnote}
+For a complete list of research experience, presentations, grants, and teaching, please see my [curriculum vitae](cv.html).
+:::
+:::

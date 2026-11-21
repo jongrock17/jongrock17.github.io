@@ -1,106 +1,152 @@
 ---
-# ===============================
-# HOME PAGE (index.qmd)
-# This is the first page people see. Edit the lines marked FIXME.
-#
-# ABOUT COMMENTS
-# Comments are notes for you. They never show on your website.
-# This file has two parts, and each part writes comments differently:
-#
-#   PART 1: the settings, between the two --- lines (where you are now)
-#           A comment starts with #
-#
-#   PART 2: the page text, below the second ---
-#           A comment is wrapped like this: <!-- your comment -->
-#           (In Part 2, a line starting with # becomes a heading.)
-# ===============================
-title: "Your Name"                 # FIXME
-subtitle: "PhD/MS Student, Your Department, University of Florida" # FIXME
-
-# ---- YOUR PHOTO ---
-# 1. On GitHub, open the "images" folder.
-# 2. Click "Add file" > "Upload files" and drag in your photo.
-#    Tip: a square photo (e.g. 500 x 500 pixels) looks best.
-# 3. Change the line below to match your file name EXACTLY,
-#    including capital letters and the ending (.jpg, .png).
-#    Example: images/jane-doe.jpg
-image: images/profile.svg                              # FIXME
-
-about:
-  template: jolla      # Layout. Other options: trestles, solana, marquee, broadside https://quarto.org/docs/websites/website-about.html
-  image-shape: round   # Other options: rounded, rectangle
-  image-alt: type your alt text
-  links:               # Buttons under your photo. Delete any you don't use.
-    - icon: github
-      text: GitHub
-      href: https://github.com/YOUR-USERNAME          # FIXME
-    - icon: linkedin                                  
-      text: LinkedIn
-      href: https://www.linkedin.com/in/YOUR-NAME    # FIXME 
-    - icon: envelope
-      text: Email
-      href: mailto:you@ufl.edu                         # FIXME
+title: false
+pagetitle: "Jong Rock Jeong | Political Science"
+description: "Jong Rock Jeong — political economy, historical institutions, state capacity, and political methodology."
 ---
 
-<!-- You are now in PART 2: the page text. Comments look like this one. -->
+::: {.site-shell .home-shell}
 
-<!--
-  ABOUT YOU (everything below this box shows on your page)
+::: {.hero}
+::: {.hero-primary}
+<div class="eyebrow"><span class="eyebrow-mark"></span> POLITICAL SCIENCE & INTERNATIONAL RELATIONS</div>
 
-  Write 2 to 4 short sentences: what you study, why it matters,
-  what methods you use, and what you did before graduate school.
+# Jong Rock <em>Jeong.</em> {.hero-title}
 
-  Not sure how to describe yourself? These can help:
-  - Building a brand as a scientist (Stephanie Hicks):
-    https://stephaniehicks.com/blog/building-a-brand-as-a-scientist
-  - Personal branding for scientists, foundations first (The Science Talk):
-    https://thesciencetalk.com/news/blog-perspectives/personal-branding-for-scientists-foundations-before-content/
-  - Get an ORCID iD so your work is linked to you: https://orcid.org
--->
+<div class="hero-role">M.A. Student · Korea University</div>
 
-::: {.callout-warning}
-## FIXME: This site is still the template
-Replace the placeholder text on each page, then delete this box (everything from `::: {.callout-warning}` to the closing `:::`).
+<p class="hero-statement">Institutions, power, and the <em>long reach of history.</em></p>
+
+I study how political institutions organize power, shape the allocation of resources, and leave enduring effects on political behavior. My work brings together **comparative and historical political economy**, **causal inference**, and **computational methods**.
+
+<div class="hero-actions">
+<a class="action-primary" href="research.html">Explore my research <span aria-hidden="true">↗</span></a>
+<a class="action-secondary" href="cv.pdf" target="_blank" rel="noopener">Download CV <span aria-hidden="true">↗</span></a>
+</div>
 :::
 
-<!--
-  FORMATTING CHEAT SHEET
-  The text below already uses each of these. Look at how it is
-  written here, then compare it to how it looks on your live site.
+::: {.hero-aside}
+<div class="aside-kicker">RESEARCH PROFILE <span class="aside-line"></span> 01 / 03</div>
+<div class="aside-deco" aria-hidden="true"><span>J</span><span>R</span></div>
+<div class="aside-meta-title">Areas of inquiry</div>
+<div class="aside-topics">
+<span>Political Economy</span>
+<span>Historical Political Economy</span>
+<span>Political Methodology</span>
+</div>
+<div class="aside-bottom">SEOUL, SOUTH KOREA <span>·</span> KOREA UNIVERSITY</div>
+:::
+:::
 
-  **bold text**              -> bold
-  *italic text*              -> italic
-  [link text](https://...)   -> a clickable link
-  ## Heading                 -> a section heading (more # = smaller)
-  - item                     -> a bullet point
-  A blank line               -> starts a new paragraph
+::: {.hairline-section .about-intro}
+<div class="section-index">01 <span>/</span> ABOUT</div>
 
-  More: https://quarto.org/docs/authoring/markdown-basics.html
--->
+::: {.about-grid}
+::: {.about-heading}
+## Politics is shaped by institutions—and by the histories behind them. {.display-heading}
+:::
 
-Hi! I'm a **[PhD/MS] student** in the [Your Department](https://www.ufl.edu) at the University of Florida. I study **[your topic]**, and I'm interested in *[one big question you want to answer]*.
+::: {.about-body}
+My research examines the development of state institutions, their relationships with local actors, and the long-term consequences of political conflict. I am especially interested in why states respond differently to local demands and how earlier forms of political incorporation continue to matter.
 
-I use [your methods or tools, e.g. field surveys, R, GIS] to [what you do with them].
+My empirical approach combines historical data collection with quantitative methods, including natural experiments, panel data, Bayesian statistics, and language models.
 
-Before grad school, I [one line about where you came from].
+[More about my work <span aria-hidden="true">↗</span>](research.html){.text-link}
+:::
+:::
+:::
 
-## Find my work
+::: {.hairline-section .featured-research}
+<div class="section-index">02 <span>/</span> SELECTED RESEARCH</div>
 
-- [Google Scholar](https://scholar.google.com) <!-- FIXME: your profile link, or delete -->
-- [ORCID](https://orcid.org) <!-- FIXME: your ORCID link, or delete -->
+::: {.section-heading-row}
+## Current papers {.section-heading}
+[View all research <span aria-hidden="true">↗</span>](research.html){.text-link}
+:::
 
-<!--
-  ORGANIZING YOUR WEBSITE
+::: {.paper-list}
+::: {.paper-entry}
+<div class="paper-number">01</div>
 
-  Keep this home page short: who you are, what you study, and
-  how to reach you. Visitors decide in a few seconds whether to
-  keep reading, so put your most important line first.
+::: {.paper-content}
+<div class="paper-status">WORKING PAPER <span class="small-dot">·</span> HISTORICAL POLITICAL ECONOMY</div>
 
-  Each page has one job:
-  - Home (this page): a quick introduction
-  - Research: your projects, publications, and presentations
-  - CV: your full education and experience
+### Exams, Elites, and the Local State {.paper-title}
 
-  Want another page (Teaching, Outreach, Blog)? See the
-  instructions at the top of _quarto.yml.
--->
+*Bureaucratic Incorporation and Territorial Governance in Joseon Korea*
+
+Examines how local access to the central bureaucracy relates to the territorial distribution of state relief in premodern Korea.
+:::
+<div class="paper-arrow" aria-hidden="true">↗</div>
+:::
+
+::: {.paper-entry}
+<div class="paper-number">02</div>
+
+::: {.paper-content}
+<div class="paper-status">WORKING PAPER <span class="small-dot">·</span> POLITICAL LEGACIES</div>
+
+### A Funeral Without End {.paper-title}
+
+*The Political Legacy of the May 18 Democratization Movement in South Korea*
+
+Investigates the long-run electoral consequences of state violence and democratization in South Korea.
+:::
+<div class="paper-arrow" aria-hidden="true">↗</div>
+:::
+
+::: {.paper-entry}
+<div class="paper-number">03</div>
+
+::: {.paper-content}
+<div class="paper-status">WORKING PAPER <span class="small-dot">·</span> COMPUTATIONAL METHODS</div>
+
+### Across Languages and Political Contexts {.paper-title}
+
+*Transfer Learning for Political Text Classification*
+
+Studies how political text classification tools transfer across languages and political contexts, including Korean-language adaptation.
+:::
+<div class="paper-arrow" aria-hidden="true">↗</div>
+:::
+:::
+:::
+
+::: {.hairline-section .approach-section}
+<div class="section-index">03 <span>/</span> RESEARCH INTERESTS</div>
+## Questions, evidence, and methods {.section-heading}
+
+::: {.interest-grid}
+::: {.interest-item}
+<div class="interest-number">I.</div>
+### State & institutions
+
+State capacity, bureaucratic incorporation, political development, and redistribution.
+:::
+
+::: {.interest-item}
+<div class="interest-number">II.</div>
+### Political legacies
+
+State violence, authoritarian legacies, collective memory, and political behavior.
+:::
+
+::: {.interest-item}
+<div class="interest-number">III.</div>
+### Quantitative methodology
+
+Causal inference, historical data, Bayesian statistics, and political text analysis.
+:::
+:::
+:::
+
+::: {.contact-banner}
+<div class="contact-banner-label">LET'S CONNECT</div>
+
+## Research begins with a conversation. {.contact-banner-title}
+
+For research questions, collaboration, or other academic inquiries, feel free to get in touch.
+
+[Get in touch <span aria-hidden="true">↗</span>](mailto:jongrock17@gmail.com){.banner-link}
+:::
+
+:::
